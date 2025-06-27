@@ -1,0 +1,13 @@
+# Encode a message (simple cipher like Base64 or Caesar Cipher).
+
+▶️ RUN The App--
+# With Docker
+docker build -t secret-message-app .
+docker run -p 5000:5000 secret-message-app
+
+# OR with Docker Compose
+docker-compose up --build
+
+Open http://localhost:5000 (or server IP) in your browser.
+
+
