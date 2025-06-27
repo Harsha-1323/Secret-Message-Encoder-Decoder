@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secret Message Encoder/Decoder</title>
+</head>
+<body>
+    <h1>Secret Message Encoder/Decoder</h1>
+    <form method="post">
+        <textarea name="message" rows="5" cols="50" placeholder="Enter your message here"></textarea><br><br>
+        <button name="action" value="encode">Encode</button>
+        <button name="action" value="decode">Decode</button>
+    </form>
+
+    {% if result %}
+        <h3>Result:</h3>
+        <p><code>{{ result }}</code></p>
+    {% endif %}
+</body>
+</html>
