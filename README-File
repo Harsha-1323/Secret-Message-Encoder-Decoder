@@ -8,6 +8,6 @@ docker run -p 5000:5000 secret-message-app
 # OR with Docker Compose
 docker-compose up --build
 
-Open http://localhost:5000 (or server IP) in your browser.
+Open http://localhost:5000 (or server IP) in your browser
 
 
