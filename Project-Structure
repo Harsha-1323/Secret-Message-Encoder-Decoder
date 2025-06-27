@@ -1,0 +1,8 @@
+secret-message-app/
+├── app/
+│   ├── app.py
+│   ├── templates/
+│   │   \-- index.html
+│   └── requirements.txt
+├── Dockerfile
+└── docker-compose.yml
